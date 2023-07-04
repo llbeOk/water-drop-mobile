@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { useMutation, useQuery } from '@apollo/client'
 import { FIND } from './graphql/demo'
-import { Button, Form, Input } from 'antd-mobile'
+import { Button, Divider, Form, Input } from 'antd-mobile'
 import { FormItem } from 'antd-mobile/es/components/form/form-item'
 
 const App = () => {
